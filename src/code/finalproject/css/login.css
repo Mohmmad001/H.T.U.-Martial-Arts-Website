@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.main-content {
+    background-image: url('../images/empty-fitness-center-equipment-blurred-interior-sun-glare-effect-modern-gym-background-empty-fitness-center-357026796.webp');
+    background-size: cover;       
+    background-position: center;  
+    padding: 80px;   
+}

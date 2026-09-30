@@ -1,0 +1,28 @@
+nav {
+    background-color: #1E1E2F;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: #F5F5F5;
+    padding: 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #FF4C4C;
+}
+
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        padding: 10px;
+    }
+}

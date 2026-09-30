@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.main-content {
+    background-image: url('../images/empty-fitness-center-equipment-blurred-interior-sun-glare-effect-modern-gym-background-empty-fitness-center-357026796.webp');
+    background-size: cover;       
+    background-position: center;  
+    padding: 80px; 
+         
+}
+
+
+.intro{
+    width: 800px;              
+    margin: 20px auto;         
+    padding: 10px 20px;        
+    background-color: #FFB84C; 
+    border: 2px solid #555;    
+    border-radius: 10px;       
+    text-align: center;   
+}
+
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;        
+  gap: 20px;              
+  justify-content: center;
+}
+
+.option {
+  background-color: #FFB84C;
+  width: calc((100% / 3) - 10px); 
+  height: 130px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.option h1 {
+      background-color: black;
+      color: #FFB84C;
+      margin: 0;
+      padding: 10px 0;
+      font-size: 20px;
+    }
+
+.option p {
+      margin: 0;
+      font-size: 20px;
+    }
+
+button{
+    background-color: black;
+      color: #FFB84C;
+      margin: 0; 
+      font-size: 15px;
+}
+
+table {
+    width: 100%;
+    margin: 20px auto;
+    background-color: #FFB84C;   
+    text-align: center;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    border: 2px solid #555;
+}
+
+th{
+    background-color: #1E1E2F;
+    color: #F5F5F5;
+    font-weight: bold;
+}
+
+td{
+    color: #1E1E2F;
+}
+
+tr:hover{
+    background-color: #ffd98a;
+}
+
+
+
